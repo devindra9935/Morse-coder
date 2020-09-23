@@ -3,7 +3,7 @@ from tkinter import *
 from PIL import ImageTk
 from pygame import mixer
 from logic import morse_logic
-
+from pydub import audio_segment
 class Application(Frame):
     def __init__(self, master=None):
         Frame.__init__(self, master)
